@@ -3,3 +3,4 @@ web: gunicorn profile_api.wsgi --log-file -
 
 
 web: python manage.py migrate && gunicorn profile_api.wsgi 
+python manage.py migrate && python manage.py collectstatic --noinput
