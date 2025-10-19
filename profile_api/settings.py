@@ -85,6 +85,7 @@ DATABASES = {
     ) if config('DATABASE_URL', default=None) is None else dj_database_url.config(default=config('DATABASE_URL'))
 }
 
+
 # -------------------------
 # PASSWORD VALIDATION
 # -------------------------
