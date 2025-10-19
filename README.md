@@ -43,3 +43,16 @@ catfact_project/
 
 ---
 
+---
+
+## 🧰 Dependencies
+
+Install these Python dependencies:
+
+```bash
+pip install -r requirements.txt
+Django
+djangorestframework
+python-decouple
+requests
+
