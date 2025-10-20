@@ -1,0 +1,19 @@
+Not Found: /
+"GET / HTTP/1.1" 404 179
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 179
+Not Found: /
+"GET / HTTP/1.1" 404 2309
+Not Found: /api/measurement/
+"GET /api/measurement/ HTTP/1.1" 404 2487
+Not Found: /api/me/
+"GET /api/me/ HTTP/1.1" 404 2460
+Not Found: /
+"GET / HTTP/1.1" 404 2309
+Not Found: /api/measurement/
+"GET /api/measurement/ HTTP/1.1" 404 2487
+Not Found: /api/me/
+"GET /api/me/ HTTP/1.1" 404 2460
+Not Found: /api/me/
+"GET /api/me/ HTTP/1.1" 404 2460
+Cat fact API error: HTTPSConnectionPool(host='catfact.ninja', port=443): Max retries exceeded with url: /fact (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001868DEA4EC0>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)"))
