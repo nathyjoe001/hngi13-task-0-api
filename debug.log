@@ -17,3 +17,22 @@ Not Found: /api/me/
 Not Found: /api/me/
 "GET /api/me/ HTTP/1.1" 404 2460
 Cat fact API error: HTTPSConnectionPool(host='catfact.ninja', port=443): Max retries exceeded with url: /fact (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001868DEA4EC0>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)"))
+Not Found: /
+"GET / HTTP/1.1" 404 2309
+Not Found: /api/me/
+"GET /api/me/ HTTP/1.1" 404 2460
+Cat fact API error: HTTPSConnectionPool(host='catfact.ninja', port=443): Max retries exceeded with url: /fact (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000023707C3D160>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)"))
+Cat fact API error: HTTPSConnectionPool(host='catfact.ninja', port=443): Max retries exceeded with url: /fact (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000023707C11590>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)"))
+Cat fact API error: HTTPSConnectionPool(host='catfact.ninja', port=443): Max retries exceeded with url: /fact (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000023707C13D90>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)"))
+Not Found: /api/m
+"GET /api/m HTTP/1.1" 404 2454
+Cat fact API error: HTTPSConnectionPool(host='catfact.ninja', port=443): Max retries exceeded with url: /fact (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002370774BC50>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)"))
+Not Found: /
+"GET / HTTP/1.1" 404 2309
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2360
+Cat fact API error: HTTPSConnectionPool(host='catfact.ninja', port=443): Max retries exceeded with url: /fact (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002E073EE0EC0>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)"))
+Not Found: /
+"GET / HTTP/1.1" 404 2309
+Not Found: /
+"GET / HTTP/1.1" 404 2309
