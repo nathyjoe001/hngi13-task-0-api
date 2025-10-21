@@ -14,6 +14,18 @@ load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
+# -------------------------------------------------
+# ENVIRONMENT SWITCHING
+# -------------------------------------------------
+# Default: development
+ENVIRONMENT = os.getenv("DJANGO_ENV", "development")
+
+if ENVIRONMENT == "production":
+    load_dotenv(os.path.join(BASE_DIR, ".env"))
+else:
+    load_dotenv(os.path.join(BASE_DIR, ".env.development"))
+
+
 # ---------------- SECURITY SETTINGS ----------------
 SECRET_KEY = os.getenv("SECRET_KEY")
 

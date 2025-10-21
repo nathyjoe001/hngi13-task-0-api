@@ -10,3 +10,4 @@ media/
 # Environment
 .env
 venv/
+.env.environment
