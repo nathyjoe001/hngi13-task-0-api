@@ -1,5 +1,20 @@
 # 🐱 Django Cat Facts API Project
 
+# HNGi13 Backend Stage 0 API
+
+This is my Stage 0 task for HNGi13 — built with Django and hosted on Railway.
+
+## Live URL
+https://hngi13-task-0-api-production.up.railway.app/api/me
+
+## Stack
+Python / Django
+
+## Author
+Name: Joseph Akpan  
+Email: akpannath84@gmail.com  
+Track: Backend (Python/Django)
+
 ## 📘 Project Overview
 This is a simple Django REST Framework project that exposes an API endpoint `/api/me/`.  
 When accessed, it returns:
