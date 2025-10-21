@@ -2,7 +2,8 @@
 
 HNGi13 Backend Stage 0 API
 
-This is my Stage 0 task for HNGi13 — built with Django and hosted on Railway.
+This is my Stage 0 task for HNGi13 — built with Django and hosted on Railway.  
+It exposes a **GET `/api/me/` endpoint** that returns my profile information along with a dynamic cat fact fetched from [Cat Facts API](https://catfact.ninja/fact).
 
 ## Live URL
 https://hngi13-task-0-api-production.up.railway.app/api/me
@@ -41,3 +42,11 @@ git clone https://github.com/nathyjoe001/hngi13-task-0-api.git
 cd hngi13-task-0-api
 pip install -r requirements.txt
 python manage.py runserver
+
+## Environment Variables
+
+Create a `.env` file in the project root:
+
+```env
+SECRET_KEY=your_django_secret_key
+DEBUG=True
